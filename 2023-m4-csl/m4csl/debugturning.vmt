@@ -1,0 +1,15 @@
+"UnlitGeneric"
+{
+	// Original shader: drawflat
+	"$flat" 1
+	"%noToolTexture" 1
+
+    "$colorfix" "[1 0.9 0.3]"
+    "Proxies"
+    {
+        "Equals"
+        {
+            srcVar1 $colorfix
+            resultVar    $color
+        }
+    }

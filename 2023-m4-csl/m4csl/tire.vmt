@@ -1,0 +1,22 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/rwcars/m4csl/tire"
+	"$bumpmap" "models/rwcars/shared/skin_shiny"
+"$phong" "1"
+	"$phongexponent" "3"
+	"$phongboost" "0.03"	
+	"$phongfresnelranges" "[5 5 5]"
+	"$nodecal" "1"
+	"$detailscale" "7"
+	"$detailblendfactor" "0.5"
+	"$detailblendmode" "0"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}

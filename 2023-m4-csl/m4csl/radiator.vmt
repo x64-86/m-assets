@@ -1,0 +1,27 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/rwcars/shared/radiator"
+	"$bumpmap"    "models/rwcars/shared/skin_shiny"
+"$nodecal" "1"
+	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost"	"1.3"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "5"
+	"$phongfresnelranges" "[ 0.05 0.05 0.05]"
+	"$envmaptint" "[0 0 0]"
+	"$phongfix" "{0 0 0}"
+	"$colorfix" "{255 255 255}"
+            
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+

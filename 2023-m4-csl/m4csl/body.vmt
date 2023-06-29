@@ -1,0 +1,32 @@
+"VertexlitGeneric"
+{
+
+"$basetexturetransform" "center .5 .5 scale 80 80 rotate 0 translate 0 0"
+	"$basetexture" "models/rwcars/m4csl/body"
+	"$bumpmap" "models/rwcars/shared/skin_shiny"
+	"$nodecal" "1"
+	"$phong" 1
+	"$phongexponent" 5
+	"$phongboost"	2
+	"$phongfresnelranges" "[1 1 1]"
+	"$rimlight" 1
+	"$rimlightboost" 0.5
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.07 0.07 0.07]"
+	"$normalmapalphaenvmapmask" 1
+	"$phongfix" "{0 0 0}"
+	"$colorfix" "{255 255 255}"
+	"Proxies"
+	{
+		"Equals"
+		{
+			srcVar1 $colorfix
+			resultVar	$color
+		}
+	}
+}
+
+
+
+
+
